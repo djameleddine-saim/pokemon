@@ -1,0 +1,105 @@
+{
+  "Pokemon": [{
+    "name": "Pikachu",
+    "health": 100,
+    "mana": 50,
+    "level": 1,
+    "speed": 10
+  }, {
+    "name": "Rattata",
+    "health": 50,
+    "mana": 25,
+    "level": 1,
+    "speed": 5
+  },
+  {
+      "name": "Bulbasaur",
+      "health": 80,
+      "mana": 40,
+      "level": 1,
+      "speed": 7
+    },
+    {
+      "name": "Charmander",
+      "health": 70,
+      "mana": 30,
+      "level": 1,
+      "speed": 8
+    },
+    {
+      "name": "Squirtle",
+      "health": 90,
+      "mana": 45,
+      "level": 1,
+      "speed": 6
+    },
+    {
+      "name": "Mewtwo",
+      "health": 150,
+      "mana": 100,
+      "level": 50,
+      "speed": 20
+    },
+    {
+      "name": "Snorlax",
+      "health": 200,
+      "mana": 50,
+      "level": 30,
+      "speed": 2
+    },
+    {
+      "name": "Dragonite",
+      "health": 120,
+      "mana": 60,
+      "level": 35,
+      "speed": 12
+    },
+    {
+      "name": "Gyarados",
+      "health": 110,
+      "mana": 50,
+      "level": 25,
+      "speed": 15
+    },
+    {
+      "name": "Alakazam",
+      "health": 80,
+      "mana": 90,
+      "level": 40,
+      "speed": 18
+    }],
+  "move": [{
+    "name": "Normal Attaque",
+    "lower": 10,
+    "upper": 20,
+    "target": true,
+    "cost": 0
+  }, {
+    "name": "Feu Attaque",
+    "lower": 20,
+    "upper": 50,
+    "target": true,
+    "cost": 0
+  },
+    {
+    "name": "Eau Attaque",
+    "lower": 5,
+    "upper": 10,
+    "target": true,
+    "cost": 0
+  },
+    {
+    "name": "Terre Attaque",
+    "lower": 15,
+    "upper": 20,
+    "target": true,
+    "cost": 0
+  },{
+    "name": "Guerir",
+    "lower": 15,
+    "upper": 30,
+    "target": false,
+    "cost": 25
+  }
+  ]
+}
