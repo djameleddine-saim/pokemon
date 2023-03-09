@@ -25,7 +25,7 @@ def load_monsters_from_config() -> list:
                 monster["speed"],
                 False
             ))
-    for move in monsters_config["move"]:
+    for move in monsters_config["attaque"]:
         for monster in monster_list:
             monster.move_list.append(
                 Attaque(
